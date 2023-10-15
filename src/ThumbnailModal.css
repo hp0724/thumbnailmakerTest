@@ -1,6 +1,6 @@
  
 .modal.fade {
-    left: +620px;
+    left: +320px;
     -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
         -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
             -o-transition: opacity 0.3s linear, left 0.3s ease-out;
@@ -11,11 +11,7 @@
     width: auto;
     height: 100px;
 }
-.modal-body{
-    width: auto;
-    height: 700px;
-}
-
+ 
 
 
  

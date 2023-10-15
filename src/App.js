@@ -6,8 +6,15 @@ import ThumbnailModal from './ThumbnailModal';
 import ThumbnailMaker from './ThumbnailMaker';
  
 
+ 
+
+// Other server configuration
+
+ 
 //Class 형태로 만들어진 컴포넌트는 꼭 render 함수 있어야하며 render 함수 내부에서 JSX 코드를 return 해주어야함.
 class App extends Component {
+
+  
 
   //render 함수
   render() {
@@ -15,7 +22,7 @@ class App extends Component {
     return (
     
       <div className="App">
-        <ThumbnailMaker></ThumbnailMaker>
+        <ThumbnailModal></ThumbnailModal>
      </div>
     );
   }
